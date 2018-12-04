@@ -13,7 +13,8 @@
     id="tgtUPI"
     maxlength="9"
   />
-  <label for="rqstDate">Request Date:</label> <input type="date" id="rqstDate" />
+  <label for="rqstDate">Request Date:</label>
+  <input type="date" id="rqstDate" />
 </p>
 <p>
   <label for="tcktDate">Ticket Date</label> <input type="date" id="tcktDate" />
@@ -26,6 +27,17 @@
     maxlength="8"
   /><span class="inputNote">(do not enter date portion of OTRS ticket)</span>
 </p>
+
+<span class="get-inline">
+  Merge Type <select>
+    <option value="mType_ncp">NCP</option>
+    <option value="mType_cst">CST</option>
+    <option value="mType_chd">Child</option>
+  </select>
+  Program Type: <input type="checkbox" id="fame" name="fame" />
+  <label for="fame">FAME</label> <input type="checkbox" id="ivd" name="ivd" />
+  <label for="ivd">IV-D</label>
+</span>
 
 <table class="table table-striped table-sm table-bordered table-responsive">
   <thead>
@@ -126,6 +138,6 @@
 
 <div>
   <button type="button" class="btn btn-primary">submit</button>
-  <button type="button" class="btn btn-info">pre-merge</button>
-  <button type="button" class="btn btn-danger">post-merge</button>
+  <!-- <button type="button" class="btn btn-info">pre-merge</button>
+  <button type="button" class="btn btn-danger">post-merge</button> -->
 </div>
