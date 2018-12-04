@@ -1,0 +1,36 @@
+.precheck {
+  padding: 15px;
+}
+
+h2{
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+
+button {
+  margin: 10px;
+}
+
+.prechecktable {
+  padding-left: 25px;
+  float: left;
+  width: 48%;
+}
+
+.prechecktable > table {
+  table-layout: fixed;
+  word-wrap: break-word;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.prechecktable > table > td {
+  overflow-x: auto;
+}
+
+.iprechecknote {
+  float: right;
+  padding: 15px;
+  width: 48%;
+  margin: 25px;
+}

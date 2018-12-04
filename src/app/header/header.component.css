@@ -1,0 +1,18 @@
+.header {
+  position: relative;
+  height: 60px;
+  width: 100%; /** Use 100% to fill the width of the page **/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header.content > img,
+.header.content > h1 {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+img {
+  height: 40px;
+}

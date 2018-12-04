@@ -1,0 +1,40 @@
+input {
+  margin: 5px;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+  line-height: 10px;
+  width: 100px;
+}
+
+.inputNote {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 75%;
+}
+
+date {
+  line-height: 10px;
+}
+
+input {
+  line-height: 10px;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}

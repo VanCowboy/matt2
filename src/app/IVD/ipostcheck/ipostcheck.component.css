@@ -1,0 +1,36 @@
+.postcheck {
+  padding: 15px;
+}
+
+h2{
+text-align: center;
+text-shadow: 1px 1px 2px red, 0 0 1em green, 0 0 0.2em green;
+}
+
+button {
+  margin: 10px;
+}
+
+.postchecktable {
+  padding-left: 25px;
+  float: left;
+  width: 48%;
+}
+
+.postchecktable > table {
+  table-layout: fixed;
+  word-wrap: break-word;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.postchecktable > table > td {
+  overflow-x: auto;
+}
+
+.ipostchecknote {
+  float: right;
+  padding: 15px;
+  width: 48%;
+  margin: 25px;
+}

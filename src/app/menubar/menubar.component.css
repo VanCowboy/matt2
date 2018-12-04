@@ -1,0 +1,13 @@
+.menucolor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  color: black !important;
+  border: solid;
+}
+
+.container{
+padding: 5px;
+}
